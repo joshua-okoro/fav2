@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.container{
+
+      background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(11, 11, 11, 0.6) , blue), url("sunset-1373171_1280.jpg");
+      width: 1000px;
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        opacity: 1;
+        height: 506px;
+    
+
+}
+body{
+    background-color: red;
+}
+
+
+.alldiv{
+    position: absolute;
+    color: white;
+}
+.top{
+    background-color: rgb(40, 2, 2);
+   display: flex;
+ 
+
+   
+}
+li{
+    color: white; 
+    list-style: none;
+    margin: auto;
+}
+ul{
+    display: flex;
+    grid-gap: 100px;
+   
+    margin: auto;
+   
+}
+
+   h2{
+    color: white;
+    color: orangered;
+    margin-left: 20px;
+  
+   }
+   .sands{
+    border: 1px solid orangered;
+    width: 220px;
+ padding-top: 0.7px;
+    float: right;
+padding-left: 2px;
+    margin-right: 15px;
+    border-radius: 3px;
+   }
+   input{
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+   }
+   button{
+    margin-left: -5px;
+    outline: none;
+        border: none;
+        height: 25px;
+        width: 58px;
+       border-radius: 0px 3px 3px 0px;
+    background-color: orangered;
+   }
+  ::placeholder{
+ color: white;
+  }
+  .webdesign{
+    width: 300px;
+    position: absolute;
+    margin-top: 150px;
+    z-index: 1;
+    color: white;
+    left: 50px;
+
+   
+   
+  }
+p{
+    text-transform: lowercase;
+}
+.wd{
+    color: white;
+}
+.course{
+    color: white;
+}
+.writeup{
+    font-size: 12px;
+    width: 300px;
+}
+.heading{
+
+    width: 200px;
+    margin-left: -20px;
+   
+    
+}
+.join{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 10px;
+
+    
+}
+.forms{
+    width: 220px;
+    height: 300px;
+    background-color: black;
+    margin-right: 30px;
+    margin-top: 70px;
+    float: right;
+    z-index: 1;
+    border-radius: 7px;
+ 
+
+
+}
+.loginH{
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.log{
+    color: orangered;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.allinput{
+   
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+   
+}
+.here{
+    border-bottom: 1px solid orangered;
+    margin: 10px;
+}
+.butto{
+  
+    width: 150px;
+    margin:20px auto;
+  
+}
+.in{
+    width: 155px;
+    border-radius: 5px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+.account{
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.up{
+    color: white;
+   margin-left: 37px;
+   text-decoration: none;
+   font-size: 13px;
+}
+.sign{
+color: orangered;
+
+}
+.with{
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+@media screen and (min-width:600px) {
+    
+}
+
+@media screen and (max-width:601px) {
+    .container {
+      width: 100%; 
+           
+    }
+    .form{
+   
+        float: none;
+        margin: auto;
+     background-color: red;
+        width: 300px;
+
+    }
+    .forms{
+        margin-top: 400px;
+
+    }
+    ul{
+        display: block;
+    }
+    .writeup{
+        width: 100px;
+    }
+.sands{
+    width: 50px;
+}
+::placeholder{
+    width: 20px;
+    display: none;
+}
+}
